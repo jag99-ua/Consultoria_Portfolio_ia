@@ -32,15 +32,21 @@ const translations = {
     ".service-card:nth-child(3) h3": "Web Development & Cloud Architecture",
     ".service-card:nth-child(3) p": "Beyond AI: comprehensive development of cloud infrastructure and web platforms (Frontend + Backend) so that AI tools are scalable, accessible, and secure.",
     
-    "#casos .section-label": "<i data-lucide=\"target\"></i> Case Study",
+    "#casos .section-label": "<i data-lucide=\"target\"></i> Featured Projects",
     "#casos .section-title": "Results that speak for themselves.",
     "#casos .section-subtitle": "Each project is an opportunity to prove how well-executed technology generates tangible value.",
     
-    ".case-content h3": "Full-Stack Web App for a Real Client",
-    ".case-content p": "Design, development, and deployment of a comprehensive cloud platform (Capstone Project NAU). Use of agile methodologies to ensure on-time delivery aligned with the client's business objectives.",
-    ".case-metric:nth-child(1) .desc": "On-time Delivery",
-    ".case-metric:nth-child(2) .desc": "AWS Deployment",
-    ".case-metric:nth-child(3) .desc": "Methodology",
+    "#case-rag .case-content h3": "RAG-Propuestas: Erasmus+ Generative System",
+    "#case-rag .case-content p": "Advanced Generative AI system (Master's Thesis) developed for the <strong>International Project Management Office (OGPI)</strong> at the University of Alicante. Automates the technical writing of KA2 proposals via a two-step RAG, processing past proposals and injecting official EU regulations dynamically.",
+    "#case-rag .case-metric:nth-child(1) .desc": "Indexed Pages",
+    "#case-rag .case-metric:nth-child(2) .desc": "2-Step RAG",
+    "#case-rag .case-metric:nth-child(3) .desc": "Total Privacy",
+
+    "#case-web .case-content h3": "Full-Stack Web App for a Real Client",
+    "#case-web .case-content p": "Design, development, and deployment of a comprehensive cloud platform (Capstone Project NAU). Use of agile methodologies to ensure on-time delivery aligned with the client's business objectives.",
+    "#case-web .case-metric:nth-child(1) .desc": "On-time Delivery",
+    "#case-web .case-metric:nth-child(2) .desc": "AWS Deployment",
+    "#case-web .case-metric:nth-child(3) .desc": "Methodology",
     
     "#about .section-label": "<i data-lucide=\"user-circle\"></i> About Me",
     "#about .section-title": "Global Perspective,<br />Precise Execution.",
@@ -71,8 +77,10 @@ const translations = {
     ".footer-title": "Boost your company<br />with <span class=\"highlight\">AI</span>. Let's talk.",
     ".footer-subtitle": "Ready to take your business to the next level? Take the first step towards digital transformation.",
     
-    ".footer-ctas .btn-primary": "<i data-lucide=\"send\"></i> Send Email",
-    ".footer-ctas .btn-outline": "<i data-lucide=\"message-circle\"></i> WhatsApp",
+    "#form-email": "Your email address",
+    "#form-message": "How can I help you?",
+    "#txt-send": "Send Message",
+    "#txt-wa": "<i data-lucide=\"message-circle\"></i> WhatsApp",
     
     ".footer-bottom": "&copy; 2026 Javier Arribas. All rights reserved."
   },
@@ -110,15 +118,21 @@ const translations = {
     ".service-card:nth-child(3) h3": "Desarrollo Web & Cloud Architecture",
     ".service-card:nth-child(3) p": "Más allá de la IA: desarrollo integral de la infraestructura en la nube y la plataforma web (Frontend + Backend) para que las herramientas de IA sean escalables, accesibles y seguras.",
     
-    "#casos .section-label": "<i data-lucide=\"target\"></i> Caso de Éxito",
+    "#casos .section-label": "<i data-lucide=\"target\"></i> Proyectos Destacados",
     "#casos .section-title": "Resultados que hablan por sí solos.",
     "#casos .section-subtitle": "Cada proyecto es una oportunidad para demostrar cómo la tecnología bien ejecutada genera valor tangible.",
     
-    ".case-content h3": "Aplicación Web Full-Stack para Cliente Real",
-    ".case-content p": "Diseño, desarrollo y despliegue de una plataforma integral en la nube (Capstone Project NAU). Uso de metodologías ágiles para asegurar la entrega a tiempo y alineada con los objetivos de negocio del cliente.",
-    ".case-metric:nth-child(1) .desc": "Entrega a tiempo",
-    ".case-metric:nth-child(2) .desc": "Despliegue AWS",
-    ".case-metric:nth-child(3) .desc": "Metodología",
+    "#case-rag .case-content h3": "RAG-Propuestas: Sistema Generativo Erasmus+",
+    "#case-rag .case-content p": "Sistema de IA Generativa avanzado (TFM) desarrollado para la <strong>Oficina de Gestión de Proyectos Internacionales (OGPI)</strong> de la Universidad de Alicante. Automatiza la redacción técnica de propuestas KA2 mediante RAG de dos pasos, procesando propuestas anteriores e inyectando normativas oficiales dinámicamente.",
+    "#case-rag .case-metric:nth-child(1) .desc": "Páginas Vectorizadas",
+    "#case-rag .case-metric:nth-child(2) .desc": "2-Step RAG",
+    "#case-rag .case-metric:nth-child(3) .desc": "Privacidad Total",
+
+    "#case-web .case-content h3": "Aplicación Web Full-Stack para Cliente Real",
+    "#case-web .case-content p": "Diseño, desarrollo y despliegue de una plataforma integral en la nube (Capstone Project NAU). Uso de metodologías ágiles para asegurar la entrega a tiempo y alineada con los objetivos de negocio del cliente.",
+    "#case-web .case-metric:nth-child(1) .desc": "Entrega a tiempo",
+    "#case-web .case-metric:nth-child(2) .desc": "Despliegue AWS",
+    "#case-web .case-metric:nth-child(3) .desc": "Metodología",
     
     "#about .section-label": "<i data-lucide=\"user-circle\"></i> Sobre Mí",
     "#about .section-title": "Perspectiva Global,<br />Ejecución Precisa.",
@@ -149,8 +163,10 @@ const translations = {
     ".footer-title": "Impulsa tu empresa<br />con <span class=\"highlight\">IA</span>. Hablemos.",
     ".footer-subtitle": "¿Listo para llevar tu negocio al siguiente nivel? Da el primer paso hacia la transformación digital.",
     
-    ".footer-ctas .btn-primary": "<i data-lucide=\"send\"></i> Enviar Email",
-    ".footer-ctas .btn-outline": "<i data-lucide=\"message-circle\"></i> WhatsApp",
+    "#form-email": "Tu correo electrónico",
+    "#form-message": "¿En qué puedo ayudarte?",
+    "#txt-send": "Enviar Mensaje",
+    "#txt-wa": "<i data-lucide=\"message-circle\"></i> WhatsApp",
     
     ".footer-bottom": "&copy; 2026 Javier Arribas. Todos los derechos reservados."
   }

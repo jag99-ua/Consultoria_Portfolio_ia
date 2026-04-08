@@ -1329,3 +1329,63 @@ button {
   background: rgba(255, 26, 26, 0.3);
   color: var(--clr-white);
 }
+
+/* ============================================
+   CONTACT FORM
+   ============================================ */
+.footer-form-wrapper {
+  max-width: 500px;
+  margin: 0 auto var(--sp-3xl);
+  text-align: left;
+}
+
+.footer-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--sp-md);
+  background: rgba(255, 255, 255, 0.02);
+  padding: var(--sp-xl);
+  border: 1px solid var(--clr-border);
+  border-radius: var(--radius-lg);
+  backdrop-filter: blur(10px);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input {
+  width: 100%;
+  padding: 14px 18px;
+  font-family: inherit;
+  font-size: var(--fs-base);
+  color: var(--clr-white);
+  background: var(--clr-bg);
+  border: 1px solid var(--clr-border);
+  border-radius: var(--radius-md);
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+  outline: none;
+}
+
+.form-input::placeholder {
+  color: var(--clr-text-muted);
+  opacity: 0.7;
+}
+
+.form-input:focus {
+  border-color: var(--clr-accent);
+  box-shadow: 0 0 0 3px rgba(255, 26, 26, 0.15);
+}
+
+textarea.form-input {
+  resize: vertical;
+  min-height: 100px;
+}
+
+@media (max-width: 480px) {
+  .footer-form {
+    padding: var(--sp-lg);
+  }
+}
+

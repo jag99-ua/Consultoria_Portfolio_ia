@@ -23,7 +23,11 @@ document.addEventListener('DOMContentLoaded', () => {
       } else {
         const elements = document.querySelectorAll(selector);
         elements.forEach(el => {
-          el.innerHTML = t[selector];
+          if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
+            el.setAttribute("placeholder", t[selector]);
+          } else {
+            el.innerHTML = t[selector];
+          }
         });
       }
     }
