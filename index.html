@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Javier Arribas — Consultor IA & Ingeniería de Software</title>
+  <meta name="description"
+    content="Consultor independiente especializado en Inteligencia Artificial e Ingeniería de Software. Transformo operaciones empresariales mediante sistemas RAG, agentes autónomos y web." />
+  <meta name="author" content="Javier Arribas" />
+  <meta name="theme-color" content="#050508" />
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23050508'/%3E%3Ctext x='50%25' y='55%25' font-family='system-ui,sans-serif' font-weight='700' font-size='14' fill='%23ff1a1a' text-anchor='middle' dominant-baseline='middle'%3EJA%3C/text%3E%3C/svg%3E" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Javier Arribas — Consultor IA & Ingeniería de Software" />
+  <meta property="og:description"
+    content="Consultor independiente especializado en automatización con IA, sistemas RAG y agentes." />
+  <meta property="og:type" content="website" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- Lucide Icons (Render-blocking optimizado con 'defer') -->
+  <script src="https://unpkg.com/lucide@latest" defer></script>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- =================== NAVBAR =================== -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#" class="nav-logo">Javier<span>.</span>Arribas</a>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#servicios">Servicios</a>
+        <a href="#casos">Casos de Éxito</a>
+        <a href="#about">Sobre Mí</a>
+        <a href="#contacto">Contacto</a>
+        
+        <div class="lang-switcher">
+          <button id="lang-en" class="lang-btn">EN</button>
+          <button id="lang-es" class="lang-btn">ES</button>
+        </div>
+
+        <a href="#contacto" class="nav-cta">
+          <i data-lucide="rocket"></i>
+          Iniciar Proyecto
+        </a>
+      </div>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="nav-overlay" id="navOverlay"></div>
+
+  <!-- Contenedor Principal (Mejora Semántica y de Accesibilidad) -->
+  <main>
+    <!-- =================== HERO =================== -->
+    <section class="hero" id="hero">
+      <div class="hero-grid"></div>
+      <div class="hero-glow"></div>
+      <div class="hero-glow-2"></div>
+
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-badge reveal">
+            <span class="dot"></span>
+            Consultor Independiente en IA & Software
+          </div>
+
+          <h1 class="hero-title reveal reveal-delay-1">
+            Ingeniería de Software &amp; <span class="highlight">Inteligencia Artificial</span> para el Futuro de tu
+            Negocio.
+          </h1>
+
+          <p class="hero-subtitle reveal reveal-delay-2">
+            Ayudo a empresas a implementar sistemas RAG, agentes autónomos y automatización inteligente. Arquitecturas
+            full-stack robustas para transformar la operativa real de tu negocio.
+          </p>
+
+          <div class="hero-ctas reveal reveal-delay-3">
+            <a href="#servicios" class="btn btn-outline">
+              <i data-lucide="layers"></i>
+              Ver Servicios
+            </a>
+            <a href="#contacto" class="btn btn-primary">
+              <i data-lucide="arrow-right"></i>
+              Contactar
+            </a>
+          </div>
+
+          <div class="hero-stats reveal reveal-delay-4">
+            <div class="hero-stat">
+              <div class="number">IA</div>
+              <div class="label">Sistemas RAG & Chatbots</div>
+            </div>
+            <div class="hero-stat">
+              <div class="number">2<span>x</span></div>
+              <div class="label">Doble Grado Internacional</div>
+            </div>
+            <div class="hero-stat">
+              <div class="number">∞</div>
+              <div class="label">Orientación a Negocio</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================== SERVICES =================== -->
+    <section class="section" id="servicios">
+      <div class="container">
+        <div class="section-label reveal">
+          <i data-lucide="cpu"></i>
+          Servicios
+        </div>
+        <h2 class="section-title reveal">
+          Soluciones a medida para<br />empresas ambiciosas.
+        </h2>
+        <p class="section-subtitle reveal">
+          Un enfoque personalizado como consultor independiente para integrar de forma eficaz tecnologías habilitadoras
+          como IA y Cloud en tu empresa.
+        </p>
+
+        <div class="services-grid">
+          <!-- Card 1 -->
+          <div class="service-card reveal reveal-delay-1">
+            <div class="service-icon">
+              <i data-lucide="message-square-text"></i>
+            </div>
+            <h3>Sistemas RAG & Chatbots Corporativos</h3>
+            <p>Desarrollo de asistentes virtuales impulsados por LLMs (como GPT-4) que chatean de forma segura con la
+              documentación privada de tu empresa para acelerar consultas y optimizar tiempos.</p>
+            <div class="service-tags">
+              <span class="service-tag">RAG</span>
+              <span class="service-tag">LLMs</span>
+              <span class="service-tag">Vector DBs</span>
+              <span class="service-tag">LangChain</span>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="service-card reveal reveal-delay-2">
+            <div class="service-icon">
+              <i data-lucide="bot"></i>
+            </div>
+            <h3>Agentes Autónomos & Automatización</h3>
+            <p>Sistemas multi-agente que no solo responden, sino que ejecutan acciones: usar APIs, estructurar datos,
+              procesar emails y automatizar flujos operativos complejos y repetitivos.</p>
+            <div class="service-tags">
+              <span class="service-tag">IA Agents</span>
+              <span class="service-tag">Automatización</span>
+              <span class="service-tag">Python</span>
+              <span class="service-tag">OpenAI API</span>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="service-card reveal reveal-delay-3">
+            <div class="service-icon">
+              <i data-lucide="code-2"></i>
+            </div>
+            <h3>Desarrollo Web & Cloud Architecture</h3>
+            <p>Más allá de la IA: desarrollo integral de la infraestructura en la nube y la plataforma web (Frontend +
+              Backend) para que las herramientas de IA sean escalables, accesibles y seguras.</p>
+            <div class="service-tags">
+              <span class="service-tag">AWS</span>
+              <span class="service-tag">Node.js</span>
+              <span class="service-tag">React</span>
+              <span class="service-tag">Docker</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================== CASE STUDY =================== -->
+    <section class="section case-study" id="casos">
+      <div class="container">
+        <div class="section-label reveal">
+          <i data-lucide="target"></i>
+          Caso de Éxito
+        </div>
+        <h2 class="section-title reveal">
+          Resultados que hablan por sí solos.
+        </h2>
+        <p class="section-subtitle reveal">
+          Cada proyecto es una oportunidad para demostrar cómo la tecnología bien ejecutada genera valor tangible.
+        </p>
+
+        <div class="case-card reveal">
+          <!-- Visual -->
+          <div class="case-visual">
+            <div class="terminal">
+              <div class="terminal-header">
+                <span class="terminal-dot"></span>
+                <span class="terminal-dot"></span>
+                <span class="terminal-dot"></span>
+              </div>
+              <div class="terminal-body">
+                <div class="terminal-line"><span class="prompt">$</span> <span class="cmd">npm run deploy</span></div>
+                <div class="terminal-line"><span class="success">✓</span> Building production bundle...</div>
+                <div class="terminal-line"><span class="success">✓</span> Uploading to AWS S3...</div>
+                <div class="terminal-line"><span class="success">✓</span> Invalidating CloudFront cache...</div>
+                <div class="terminal-line"><span class="success">✓</span> Database migrations applied (MySQL)</div>
+                <div class="terminal-line"><span class="success">✓</span> All tests passed (47/47)</div>
+                <div class="terminal-line"><span class="prompt">$</span> <span class="cmd">echo "Deploy complete"</span>
+                </div>
+                <div class="terminal-line"><span class="success">→ </span> https://app.production.live</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Content -->
+          <div class="case-content">
+            <h3>Aplicación Web Full-Stack para Cliente Real</h3>
+            <p>
+              Diseño, desarrollo y despliegue de una plataforma integral en la nube (Capstone Project NAU).
+              Uso de metodologías ágiles para asegurar la entrega a tiempo y alineada con los objetivos de negocio del
+              cliente.
+            </p>
+            <div class="case-metrics">
+              <div class="case-metric">
+                <div class="value">100%</div>
+                <div class="desc">Entrega a tiempo</div>
+              </div>
+              <div class="case-metric">
+                <div class="value">Cloud</div>
+                <div class="desc">Despliegue AWS</div>
+              </div>
+              <div class="case-metric">
+                <div class="value">Agile</div>
+                <div class="desc">Metodología</div>
+              </div>
+            </div>
+            <div class="case-tags">
+              <span class="case-tag">Node.js</span>
+              <span class="case-tag">AWS</span>
+              <span class="case-tag">MySQL</span>
+              <span class="case-tag">Git</span>
+              <span class="case-tag">EJS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================== ABOUT =================== -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-label reveal">
+          <i data-lucide="user-circle"></i>
+          Sobre Mí
+        </div>
+        <h2 class="section-title reveal">
+          Perspectiva Global,<br />Ejecución Precisa.
+        </h2>
+
+        <div class="about-grid">
+          <!-- Visual side -->
+          <div class="about-visual reveal">
+            <div class="about-card-main">
+              <div class="about-avatar">JA</div>
+              <div class="about-name">Javier Arribas</div>
+              <div class="about-role">AI Solutions Engineer</div>
+              <div class="about-badges">
+                <span class="about-badge"><i data-lucide="map-pin"></i> España — EE.UU.</span>
+                <span class="about-badge"><i data-lucide="graduation-cap"></i> Doble Grado</span>
+                <span class="about-badge"><i data-lucide="brain"></i> Máster en IA</span>
+              </div>
+            </div>
+            <div class="about-float about-float-1">
+              <i data-lucide="code-2"></i>
+              IA + Software Escalable
+            </div>
+          </div>
+
+          <!-- Text side -->
+          <div class="about-text reveal reveal-delay-1">
+            <h3>Soluciones técnicas. Impacto en tu negocio.</h3>
+            <p>
+              Con un Doble Grado en Ingeniería Informática y del Software obtenido entre España y Estados Unidos,
+              y un actual Máster en IA, ofrezco mis servicios como consultor independiente para empresas que
+              buscan digitalizar su operativa mediante las últimas tecnologías generativas.
+            </p>
+
+            <div class="about-highlights">
+              <div class="about-highlight">
+                <div class="about-highlight-icon">
+                  <i data-lucide="graduation-cap"></i>
+                </div>
+                <div>
+                  <h4>Base Técnica Sólida (España - EE.UU.)</h4>
+                  <p>Doble Grado en Informática y Software + Máster en IA. Conocimiento profundo de modelos
+                    computacionales, no solo integración superficial de APIs.</p>
+                </div>
+              </div>
+
+              <div class="about-highlight">
+                <div class="about-highlight-icon">
+                  <i data-lucide="lightbulb"></i>
+                </div>
+                <div>
+                  <h4>Visión Estratégica en Inteligencia Artificial</h4>
+                  <p>Identifico cuellos de botella operativos en tu organización y diseño asistentes internos, sistemas
+                    RAG sobre tu base documental o agentes que optimizan tareas manuales.</p>
+                </div>
+              </div>
+
+              <div class="about-highlight">
+                <div class="about-highlight-icon">
+                  <i data-lucide="rocket"></i>
+                </div>
+                <div>
+                  <h4>Del Prototipo a Producción</h4>
+                  <p>Abarco todo el ciclo de vida del producto: desde validar y probar los modelos (LLMs) hasta su
+                    encapsulado en Docker, despliegue en la nube AWS y creación de la interfaz de usuario.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================== TECH STACK =================== -->
+    <section class="section tech-stack" id="stack">
+      <div class="container">
+        <div class="section-label reveal" style="margin: 0 auto;">
+          <i data-lucide="wrench"></i>
+          Stack Tecnológico
+        </div>
+        <h2 class="section-title reveal" style="text-align:center; margin-top: var(--sp-lg);">
+          Herramientas que dominamos.
+        </h2>
+        <p class="section-subtitle reveal" style="text-align:center; margin: 0 auto;">
+          Un arsenal tecnológico versátil y en constante evolución.
+        </p>
+      </div>
+
+      <div class="tech-marquee-wrap">
+        <div class="tech-marquee" id="techMarquee">
+          <!-- Row 1: Full-Stack + AI Consulting Stack -->
+          <div class="tech-item"><i data-lucide="file-code-2"></i><span>C++</span></div>
+          <div class="tech-item"><i data-lucide="terminal"></i><span>Python</span></div>
+          <div class="tech-item"><i data-lucide="brain-circuit"></i><span>Machine Learning</span></div>
+          <div class="tech-item"><i data-lucide="cpu"></i><span>PyTorch / TensorFlow</span></div>
+          <div class="tech-item"><i data-lucide="sparkles"></i><span>LangChain & LLMs</span></div>
+          <div class="tech-item"><i data-lucide="bar-chart-3"></i><span>Pandas & Scikit-Learn</span></div>
+          <div class="tech-item"><i data-lucide="database-zap"></i><span>Vector DBs</span></div>
+          <div class="tech-item"><i data-lucide="cloud"></i><span>AWS</span></div>
+          <div class="tech-item"><i data-lucide="container"></i><span>Docker</span></div>
+          <div class="tech-item"><i data-lucide="workflow"></i><span>CI/CD & Actions</span></div>
+          <div class="tech-item"><i data-lucide="activity"></i><span>Apache Kafka</span></div>
+          <div class="tech-item"><i data-lucide="server"></i><span>Node.js</span></div>
+          <div class="tech-item"><i data-lucide="zap"></i><span>FastAPI</span></div>
+          <div class="tech-item"><i data-lucide="database"></i><span>SQL / MySQL</span></div>
+          <div class="tech-item"><i data-lucide="network"></i><span>REST APIs</span></div>
+          <div class="tech-item"><i data-lucide="atom"></i><span>React</span></div>
+          <div class="tech-item"><i data-lucide="wind"></i><span>Tailwind CSS</span></div>
+          <div class="tech-item"><i data-lucide="braces"></i><span>JavaScript</span></div>
+          <div class="tech-item"><i data-lucide="layout-template"></i><span>HTML / CSS</span></div>
+          <div class="tech-item"><i data-lucide="git-branch"></i><span>Git</span></div>
+
+          <!-- Row 2: Duplicated for seamless infinite loop (Oculto a lectores de pantalla) -->
+          <div class="tech-item" aria-hidden="true"><i data-lucide="file-code-2"></i><span>C++</span></div>
+          <div class="tech-item" aria-hidden="true"><i data-lucide="terminal"></i><span>Python</span></div>
+          <div class="tech-item" aria-hidden="true"><i data-lucide="brain-circuit"></i><span>Machine Learning</span>
+          </div>
+          <div class="tech-item" aria-hidden="true"><i data-lucide="cpu"></i><span>PyTorch / TensorFlow</span></div>
+          <div class="tech-item" aria-hidden="true"><i data-lucide="sparkles"></i><span>LangChain & LLMs</span></div>
+          <div class="tech-item" aria-hidden="true"><i data-lucide="bar-chart-3"></i><span>Pandas & Scikit-Learn</span>
+          </div>
+          <div class="tech-item" aria-hidden="true"><i data-lucide="database-zap"></i><span>Vector DBs</span></div>
+          <div class="tech-item" aria-hidden="true"><i data-lucide="cloud"></i><span>AWS</span></div>
+          <div class="tech-item" aria-hidden="true"><i data-lucide="container"></i><span>Docker</span></div>
+          <div class="tech-item" aria-hidden="true"><i data-lucide="workflow"></i><span>CI/CD & Actions</span></div>
+          <div class="tech-item" aria-hidden="true"><i data-lucide="activity"></i><span>Apache Kafka</span></div>
+          <div class="tech-item" aria-hidden="true"><i data-lucide="server"></i><span>Node.js</span></div>
+          <div class="tech-item" aria-hidden="true"><i data-lucide="zap"></i><span>FastAPI</span></div>
+          <div class="tech-item" aria-hidden="true"><i data-lucide="database"></i><span>SQL / MySQL</span></div>
+          <div class="tech-item" aria-hidden="true"><i data-lucide="network"></i><span>REST APIs</span></div>
+          <div class="tech-item" aria-hidden="true"><i data-lucide="atom"></i><span>React</span></div>
+          <div class="tech-item" aria-hidden="true"><i data-lucide="wind"></i><span>Tailwind CSS</span></div>
+          <div class="tech-item" aria-hidden="true"><i data-lucide="braces"></i><span>JavaScript</span></div>
+          <div class="tech-item" aria-hidden="true"><i data-lucide="layout-template"></i><span>HTML / CSS</span></div>
+          <div class="tech-item" aria-hidden="true"><i data-lucide="git-branch"></i><span>Git</span></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =================== FOOTER / CONTACT =================== -->
+  <footer class="footer" id="contacto">
+    <div class="footer-glow"></div>
+    <div class="container">
+      <div class="footer-content reveal">
+        <div class="section-label" style="margin: 0 auto var(--sp-lg);">
+          <i data-lucide="mail"></i>
+          Contacto
+        </div>
+        <h2 class="footer-title">
+          Impulsa tu empresa<br />con <span class="highlight">IA</span>. Hablemos.
+        </h2>
+        <p class="footer-subtitle">
+          ¿Listo para llevar tu negocio al siguiente nivel? Da el primer paso hacia la transformación digital.
+        </p>
+
+        <div class="footer-ctas">
+          <a href="mailto:javier.arribas.gon@gmail.com" class="btn btn-primary">
+            <i data-lucide="send"></i>
+            Enviar Email
+          </a>
+          <a href="https://wa.me/34654652292" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+            <i data-lucide="message-circle"></i>
+            WhatsApp
+          </a>
+        </div>
+
+        <div class="footer-links">
+          <a href="mailto:javier.arribas.gon@gmail.com" class="footer-link">
+            <i data-lucide="mail"></i>
+            javier.arribas.gon@gmail.com
+          </a>
+          <a href="tel:+34654652292" class="footer-link">
+            <i data-lucide="phone"></i>
+            +34 654 652 292
+          </a>
+          <a href="https://github.com/jag99-ua" target="_blank" rel="noopener noreferrer" class="footer-link">
+            <i data-lucide="github"></i>
+            GitHub
+          </a>
+        </div>
+
+        <div class="footer-bottom">
+          &copy; 2026 Javier Arribas. Todos los derechos reservados.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="translations.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
